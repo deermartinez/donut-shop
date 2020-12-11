@@ -21,7 +21,23 @@ console.log("boolean");
 //creat an arry with all the students
 //use one of the methods to creat an array
 
-var students = new Array("Destynee", "Marvin", "Abraham", "Kevin", "Ngoc", "Sheily", "Syed");
-console.log(students);
+var students = new Array()
+classList[0] = "Destynee";
+classList[1] = "Marvin";
+classList[2] = "Abraham";
+classList[3] = "Kevin";
+classList[4] = "Ngoc";
+classList[5] = "Sheily";
+classList[6] = "Syed";
+classList[7] = "April";
+console.log(classList);
+
+//accessing an array
+//use the index[] position
+//number inside -1 is what output will be 
+console.log(classList[6])
+
+//,length method will give index number of array
+console.log(classList.length);
 
 
